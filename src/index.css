@@ -4,11 +4,11 @@
 html,
 body {
   width: 100%;
-  height: 100%;
   background-color: #232b2b;
 }
 body {
   margin: 0;
+  padding: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -27,4 +27,11 @@ code {
 #root {
   width: 100%;
   /* height: 100%; */
+}
+
+@media (min-width: 640px) {
+  html,
+  body {
+    height: 100%;
+  }
 }
