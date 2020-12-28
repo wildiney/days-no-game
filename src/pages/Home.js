@@ -41,10 +41,10 @@ function Home() {
             </header>
             <div className="content">
                 <div className="image">
-                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-image-block-01-en-24jul20?$native--t$" width="200" alt="playstation 4" />
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-image-block-01-en-24jul20?$native--t$" alt="playstation 4" />
                 </div>
                 <div className="data">
-                    <p>{player} está há {formatDays(daysSince)} dias <br /> sem jogar.</p>
+                    <p>{player} está há {formatDays(daysSince)} dias sem jogar.</p>
                     <p>Seu recorde é de {formatDays(record)}  dias.</p>
                 </div>
             </div>

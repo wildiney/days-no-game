@@ -31,7 +31,7 @@ header h2 small {
 .content {
   width: 100%;
   background-color: white;
-
+  padding: 0 20px;
   display: flex;
   align-items: center;
   font-size: 1.6rem;
@@ -39,6 +39,10 @@ header h2 small {
 }
 .image {
   padding: 10px 30px;
+  max-width: 40%;
+}
+.image img {
+  width: 100%;
 }
 .data p {
   line-height: 2rem;
